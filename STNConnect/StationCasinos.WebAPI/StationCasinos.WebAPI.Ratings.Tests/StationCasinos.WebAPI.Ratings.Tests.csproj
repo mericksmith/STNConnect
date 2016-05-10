@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4162FE7-EFC5-45FE-9A03-990C40490CEF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StationCasinos.WebAPI.Ratings.Tests</RootNamespace>
+    <AssemblyName>StationCasinos.WebAPI.Ratings.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+    <Reference Include="Moq, Version=4.2.1510.2205, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InhouseRaceControllerTest.cs" />
+    <Compile Include="MockOleDb.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RatingsExtensionsTests.cs" />
+    <Compile Include="SpinPlayerTrackingTests.cs" />
+    <Compile Include="TestUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StationCasinos.EnterpriseObjects.Ratings\StationCasinos.EnterpriseObjects.Ratings.csproj">
+      <Project>{905e6cb5-29de-4a41-9bc4-ca002745f831}</Project>
+      <Name>StationCasinos.EnterpriseObjects.Ratings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StationCasinos.Repository.Interface.Lookup\StationCasinos.Repository.Interface.Lookup.csproj">
+      <Project>{ae0e7292-a3d3-487c-9a69-5e154b63ccde}</Project>
+      <Name>StationCasinos.Repository.Interface.Lookup</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StationCasinos.Repository.Interface.Ratings\StationCasinos.Repository.Interface.Ratings.csproj">
+      <Project>{3D2EC049-DD38-4C24-A389-6C9E939D5B22}</Project>
+      <Name>StationCasinos.Repository.Interface.Ratings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StationCasinos.Repository.Ratings\StationCasinos.Repository.Ratings.csproj">
+      <Project>{4E15777B-3AB3-4E54-8909-6A9EC59CE229}</Project>
+      <Name>StationCasinos.Repository.Ratings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StationCasinos.WebAPI.Ratings\StationCasinos.WebAPI.Ratings.csproj">
+      <Project>{1c300002-8654-4f59-984b-f54580414121}</Project>
+      <Name>StationCasinos.WebAPI.Ratings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StationCasinos.WebAPI.Utility.Interface\StationCasinos.WebAPI.Utility.Interface.csproj">
+      <Project>{f13dc8c6-eade-4f00-960e-499158d15a65}</Project>
+      <Name>StationCasinos.WebAPI.Utility.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StationCasinos.WebAPI.Utility\StationCasinos.WebAPI.Utility.csproj">
+      <Project>{2B127250-1133-44E3-BC57-058F21A63588}</Project>
+      <Name>StationCasinos.WebAPI.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

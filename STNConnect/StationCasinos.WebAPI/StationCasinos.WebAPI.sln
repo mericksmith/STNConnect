@@ -1,0 +1,219 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{FAB9D5C8-5C9B-48D3-B08D-1E491540BEB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{D30ACB15-7F22-4BEE-9E7E-2580138EDB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Ratings", "StationCasinos.WebAPI.Ratings\StationCasinos.WebAPI.Ratings.csproj", "{1C300002-8654-4F59-984B-F54580414121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Ratings.Tests", "StationCasinos.WebAPI.Ratings.Tests\StationCasinos.WebAPI.Ratings.Tests.csproj", "{B4162FE7-EFC5-45FE-9A03-990C40490CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Patron.Tests", "StationCasinos.WebAPI.Patron.Tests\StationCasinos.WebAPI.Patron.Tests.csproj", "{ADB8D8E7-E4DE-4EE1-A999-C3AD5B914186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.EnterpriseObjects.Patron", "StationCasinos.EnterpriseObjects.Patron\StationCasinos.EnterpriseObjects.Patron.csproj", "{ABE819FB-7F56-49FC-9395-371278A50CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.EnterpriseObjects.Ratings", "StationCasinos.EnterpriseObjects.Ratings\StationCasinos.EnterpriseObjects.Ratings.csproj", "{905E6CB5-29DE-4A41-9BC4-CA002745F831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.Repository.Interface.Patron", "StationCasinos.Repository.Interface.Patron\StationCasinos.Repository.Interface.Patron.csproj", "{A7DE9B4E-D48B-457C-B3C4-C54CA1514006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.Repository.Interface.Ratings", "StationCasinos.Repository.Interface.Ratings\StationCasinos.Repository.Interface.Ratings.csproj", "{3D2EC049-DD38-4C24-A389-6C9E939D5B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.Repository.Patron", "StationCasinos.Repository.Patron\StationCasinos.Repository.Patron.csproj", "{1A967CA6-DE87-45DB-A353-9CC036C01ADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.Repository.Ratings", "StationCasinos.Repository.Ratings\StationCasinos.Repository.Ratings.csproj", "{4E15777B-3AB3-4E54-8909-6A9EC59CE229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Patron", "StationCasinos.WebAPI.Patron\StationCasinos.WebAPI.Patron.csproj", "{3F16B2C3-34D2-4D69-87B4-2D855EEC3D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Utility", "StationCasinos.WebAPI.Utility\StationCasinos.WebAPI.Utility.csproj", "{2B127250-1133-44E3-BC57-058F21A63588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.Repository.Interface.Lookup", "StationCasinos.Repository.Interface.Lookup\StationCasinos.Repository.Interface.Lookup.csproj", "{AE0E7292-A3D3-487C-9A69-5E154B63CCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.Repository.Lookup", "StationCasinos.Repository.Lookup\StationCasinos.Repository.Lookup.csproj", "{B1E9C082-F644-4BE8-80A9-F2E5AC72604B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{CCD1AD0D-76EA-428D-9FAC-2E180E6E1684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Service.Pms", "StationCasinos.WebAPI.Service.Pms\StationCasinos.WebAPI.Service.Pms.csproj", "{A29BCFD1-7DE1-46F7-AF2B-A18728CA211B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Service.Interface", "StationCasinos.WebAPI.Service.Interface\StationCasinos.WebAPI.Service.Interface.csproj", "{923D0D20-2CBE-4314-9D20-7B937890220C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Service.Models", "StationCasinos.WebAPI.Service.Models\StationCasinos.WebAPI.Service.Models.csproj", "{77DB2D00-E535-4F1E-8443-EF256778A4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Resolver", "StationCasinos.WebAPI.Resolver\StationCasinos.WebAPI.Resolver.csproj", "{19771F0F-AC17-4CF7-903D-3F7065E9DB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationCasinos.WebAPI.Utility.Interface", "StationCasinos.WebAPI.Utility.Interface\StationCasinos.WebAPI.Utility.Interface.csproj", "{F13DC8C6-EADE-4F00-960E-499158D15A65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{9694E447-7733-456B-A578-5D5ED17D4F40}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\SCFramework.dll = Dependencies\SCFramework.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C300002-8654-4F59-984B-F54580414121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C300002-8654-4F59-984B-F54580414121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C300002-8654-4F59-984B-F54580414121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C300002-8654-4F59-984B-F54580414121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4162FE7-EFC5-45FE-9A03-990C40490CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4162FE7-EFC5-45FE-9A03-990C40490CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4162FE7-EFC5-45FE-9A03-990C40490CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4162FE7-EFC5-45FE-9A03-990C40490CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB8D8E7-E4DE-4EE1-A999-C3AD5B914186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB8D8E7-E4DE-4EE1-A999-C3AD5B914186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB8D8E7-E4DE-4EE1-A999-C3AD5B914186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB8D8E7-E4DE-4EE1-A999-C3AD5B914186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE819FB-7F56-49FC-9395-371278A50CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE819FB-7F56-49FC-9395-371278A50CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE819FB-7F56-49FC-9395-371278A50CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE819FB-7F56-49FC-9395-371278A50CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905E6CB5-29DE-4A41-9BC4-CA002745F831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905E6CB5-29DE-4A41-9BC4-CA002745F831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905E6CB5-29DE-4A41-9BC4-CA002745F831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905E6CB5-29DE-4A41-9BC4-CA002745F831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DE9B4E-D48B-457C-B3C4-C54CA1514006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DE9B4E-D48B-457C-B3C4-C54CA1514006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DE9B4E-D48B-457C-B3C4-C54CA1514006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DE9B4E-D48B-457C-B3C4-C54CA1514006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2EC049-DD38-4C24-A389-6C9E939D5B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2EC049-DD38-4C24-A389-6C9E939D5B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2EC049-DD38-4C24-A389-6C9E939D5B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2EC049-DD38-4C24-A389-6C9E939D5B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A967CA6-DE87-45DB-A353-9CC036C01ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A967CA6-DE87-45DB-A353-9CC036C01ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A967CA6-DE87-45DB-A353-9CC036C01ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A967CA6-DE87-45DB-A353-9CC036C01ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E15777B-3AB3-4E54-8909-6A9EC59CE229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E15777B-3AB3-4E54-8909-6A9EC59CE229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E15777B-3AB3-4E54-8909-6A9EC59CE229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E15777B-3AB3-4E54-8909-6A9EC59CE229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F16B2C3-34D2-4D69-87B4-2D855EEC3D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F16B2C3-34D2-4D69-87B4-2D855EEC3D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F16B2C3-34D2-4D69-87B4-2D855EEC3D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F16B2C3-34D2-4D69-87B4-2D855EEC3D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B127250-1133-44E3-BC57-058F21A63588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B127250-1133-44E3-BC57-058F21A63588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B127250-1133-44E3-BC57-058F21A63588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B127250-1133-44E3-BC57-058F21A63588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0E7292-A3D3-487C-9A69-5E154B63CCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0E7292-A3D3-487C-9A69-5E154B63CCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0E7292-A3D3-487C-9A69-5E154B63CCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0E7292-A3D3-487C-9A69-5E154B63CCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E9C082-F644-4BE8-80A9-F2E5AC72604B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E9C082-F644-4BE8-80A9-F2E5AC72604B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E9C082-F644-4BE8-80A9-F2E5AC72604B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E9C082-F644-4BE8-80A9-F2E5AC72604B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29BCFD1-7DE1-46F7-AF2B-A18728CA211B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29BCFD1-7DE1-46F7-AF2B-A18728CA211B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29BCFD1-7DE1-46F7-AF2B-A18728CA211B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29BCFD1-7DE1-46F7-AF2B-A18728CA211B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923D0D20-2CBE-4314-9D20-7B937890220C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923D0D20-2CBE-4314-9D20-7B937890220C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923D0D20-2CBE-4314-9D20-7B937890220C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923D0D20-2CBE-4314-9D20-7B937890220C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DB2D00-E535-4F1E-8443-EF256778A4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DB2D00-E535-4F1E-8443-EF256778A4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DB2D00-E535-4F1E-8443-EF256778A4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DB2D00-E535-4F1E-8443-EF256778A4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19771F0F-AC17-4CF7-903D-3F7065E9DB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19771F0F-AC17-4CF7-903D-3F7065E9DB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19771F0F-AC17-4CF7-903D-3F7065E9DB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19771F0F-AC17-4CF7-903D-3F7065E9DB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13DC8C6-EADE-4F00-960E-499158D15A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13DC8C6-EADE-4F00-960E-499158D15A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13DC8C6-EADE-4F00-960E-499158D15A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13DC8C6-EADE-4F00-960E-499158D15A65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABE819FB-7F56-49FC-9395-371278A50CB4} = {D30ACB15-7F22-4BEE-9E7E-2580138EDB75}
+		{905E6CB5-29DE-4A41-9BC4-CA002745F831} = {D30ACB15-7F22-4BEE-9E7E-2580138EDB75}
+		{A7DE9B4E-D48B-457C-B3C4-C54CA1514006} = {FAB9D5C8-5C9B-48D3-B08D-1E491540BEB2}
+		{3D2EC049-DD38-4C24-A389-6C9E939D5B22} = {FAB9D5C8-5C9B-48D3-B08D-1E491540BEB2}
+		{1A967CA6-DE87-45DB-A353-9CC036C01ADF} = {FAB9D5C8-5C9B-48D3-B08D-1E491540BEB2}
+		{4E15777B-3AB3-4E54-8909-6A9EC59CE229} = {FAB9D5C8-5C9B-48D3-B08D-1E491540BEB2}
+		{AE0E7292-A3D3-487C-9A69-5E154B63CCDE} = {FAB9D5C8-5C9B-48D3-B08D-1E491540BEB2}
+		{B1E9C082-F644-4BE8-80A9-F2E5AC72604B} = {FAB9D5C8-5C9B-48D3-B08D-1E491540BEB2}
+		{A29BCFD1-7DE1-46F7-AF2B-A18728CA211B} = {CCD1AD0D-76EA-428D-9FAC-2E180E6E1684}
+		{923D0D20-2CBE-4314-9D20-7B937890220C} = {CCD1AD0D-76EA-428D-9FAC-2E180E6E1684}
+		{77DB2D00-E535-4F1E-8443-EF256778A4C6} = {CCD1AD0D-76EA-428D-9FAC-2E180E6E1684}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 19
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sctfs.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = StationCasinos.WebAPI.Ratings\\StationCasinos.WebAPI.Ratings.csproj
+		SccProjectName1 = StationCasinos.WebAPI.Ratings
+		SccLocalPath1 = StationCasinos.WebAPI.Ratings
+		SccProjectUniqueName2 = StationCasinos.WebAPI.Ratings.Tests\\StationCasinos.WebAPI.Ratings.Tests.csproj
+		SccProjectName2 = StationCasinos.WebAPI.Ratings.Tests
+		SccLocalPath2 = StationCasinos.WebAPI.Ratings.Tests
+		SccProjectUniqueName3 = StationCasinos.WebAPI.Patron.Tests\\StationCasinos.WebAPI.Patron.Tests.csproj
+		SccProjectName3 = StationCasinos.WebAPI.Patron.Tests
+		SccLocalPath3 = StationCasinos.WebAPI.Patron.Tests
+		SccProjectUniqueName4 = StationCasinos.EnterpriseObjects.Patron\\StationCasinos.EnterpriseObjects.Patron.csproj
+		SccProjectTopLevelParentUniqueName4 = StationCasinos.WebAPI.sln
+		SccProjectName4 = StationCasinos.EnterpriseObjects.Patron
+		SccLocalPath4 = StationCasinos.EnterpriseObjects.Patron
+		SccProjectUniqueName5 = StationCasinos.EnterpriseObjects.Ratings\\StationCasinos.EnterpriseObjects.Ratings.csproj
+		SccProjectTopLevelParentUniqueName5 = StationCasinos.WebAPI.sln
+		SccProjectName5 = StationCasinos.EnterpriseObjects.Ratings
+		SccLocalPath5 = StationCasinos.EnterpriseObjects.Ratings
+		SccProjectUniqueName6 = StationCasinos.Repository.Interface.Patron\\StationCasinos.Repository.Interface.Patron.csproj
+		SccProjectTopLevelParentUniqueName6 = StationCasinos.WebAPI.sln
+		SccProjectName6 = StationCasinos.Repository.Interface.Patron
+		SccLocalPath6 = StationCasinos.Repository.Interface.Patron
+		SccProjectUniqueName7 = StationCasinos.Repository.Interface.Ratings\\StationCasinos.Repository.Interface.Ratings.csproj
+		SccProjectTopLevelParentUniqueName7 = StationCasinos.WebAPI.sln
+		SccProjectName7 = StationCasinos.Repository.Interface.Ratings
+		SccLocalPath7 = StationCasinos.Repository.Interface.Ratings
+		SccProjectUniqueName8 = StationCasinos.Repository.Patron\\StationCasinos.Repository.Patron.csproj
+		SccProjectTopLevelParentUniqueName8 = StationCasinos.WebAPI.sln
+		SccProjectName8 = StationCasinos.Repository.Patron
+		SccLocalPath8 = StationCasinos.Repository.Patron
+		SccProjectUniqueName9 = StationCasinos.Repository.Ratings\\StationCasinos.Repository.Ratings.csproj
+		SccProjectTopLevelParentUniqueName9 = StationCasinos.WebAPI.sln
+		SccProjectName9 = StationCasinos.Repository.Ratings
+		SccLocalPath9 = StationCasinos.Repository.Ratings
+		SccProjectUniqueName10 = StationCasinos.WebAPI.Patron\\StationCasinos.WebAPI.Patron.csproj
+		SccProjectName10 = StationCasinos.WebAPI.Patron
+		SccLocalPath10 = StationCasinos.WebAPI.Patron
+		SccProjectUniqueName11 = StationCasinos.WebAPI.Utility\\StationCasinos.WebAPI.Utility.csproj
+		SccProjectName11 = StationCasinos.WebAPI.Utility
+		SccLocalPath11 = StationCasinos.WebAPI.Utility
+		SccProjectUniqueName12 = StationCasinos.Repository.Interface.Lookup\\StationCasinos.Repository.Interface.Lookup.csproj
+		SccProjectTopLevelParentUniqueName12 = StationCasinos.WebAPI.sln
+		SccProjectName12 = StationCasinos.Repository.Interface.Lookup
+		SccLocalPath12 = StationCasinos.Repository.Interface.Lookup
+		SccProjectUniqueName13 = StationCasinos.Repository.Lookup\\StationCasinos.Repository.Lookup.csproj
+		SccProjectTopLevelParentUniqueName13 = StationCasinos.WebAPI.sln
+		SccProjectName13 = StationCasinos.Repository.Lookup
+		SccLocalPath13 = StationCasinos.Repository.Lookup
+		SccProjectUniqueName14 = StationCasinos.WebAPI.Service.Pms\\StationCasinos.WebAPI.Service.Pms.csproj
+		SccProjectTopLevelParentUniqueName14 = StationCasinos.WebAPI.sln
+		SccProjectName14 = StationCasinos.WebAPI.Service.Pms
+		SccLocalPath14 = StationCasinos.WebAPI.Service.Pms
+		SccProjectUniqueName15 = StationCasinos.WebAPI.Service.Interface\\StationCasinos.WebAPI.Service.Interface.csproj
+		SccProjectTopLevelParentUniqueName15 = StationCasinos.WebAPI.sln
+		SccProjectName15 = StationCasinos.WebAPI.Service.Interface
+		SccLocalPath15 = StationCasinos.WebAPI.Service.Interface
+		SccProjectUniqueName16 = StationCasinos.WebAPI.Service.Models\\StationCasinos.WebAPI.Service.Models.csproj
+		SccProjectTopLevelParentUniqueName16 = StationCasinos.WebAPI.sln
+		SccProjectName16 = StationCasinos.WebAPI.Service.Models
+		SccLocalPath16 = StationCasinos.WebAPI.Service.Models
+		SccProjectUniqueName17 = StationCasinos.WebAPI.Resolver\\StationCasinos.WebAPI.Resolver.csproj
+		SccProjectName17 = StationCasinos.WebAPI.Resolver
+		SccLocalPath17 = StationCasinos.WebAPI.Resolver
+		SccProjectUniqueName18 = StationCasinos.WebAPI.Utility.Interface\\StationCasinos.WebAPI.Utility.Interface.csproj
+		SccProjectName18 = StationCasinos.WebAPI.Utility.Interface
+		SccLocalPath18 = StationCasinos.WebAPI.Utility.Interface
+	EndGlobalSection
+EndGlobal

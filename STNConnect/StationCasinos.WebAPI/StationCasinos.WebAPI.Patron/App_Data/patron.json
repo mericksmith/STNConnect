@@ -1,0 +1,178 @@
+﻿[
+  {
+    "PatronId": "3012508",
+    "PatronProfile": {
+      "FirstName": "Jody",
+      "LastName": "Capasso",
+      "Dob": {
+        "DT": "1973-11-10T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+    "BoardingPass": [
+      {
+        "MagStripe": "013042151503012508",
+        "CardNumber": "3012508"
+      }
+    ]
+  },
+  {
+    "PatronId": "3010472",
+    "PatronProfile": {
+      "FirstName": "William",
+      "LastName": "Lanigan",
+      "Dob": {
+        "DT": "1975-12-13T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+    "BoardingPass": [
+      {
+        "MagStripe": "013042011412552540",
+        "CardNumber": "3010472"
+      }
+    ]
+  },
+  {
+    "PatronId": "4874403",
+    "PatronProfile": {
+      "FirstName": "Ceasar",
+      "LastName": "Valencia",
+      "Dob": {
+        "DT": "1962-1-23T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+    "BoardingPass": [
+      {
+        "MagStripe": "013042121513957799",
+        "CardNumber": "4874403"
+      }
+    ]
+  },
+  {
+    "PatronId": "7503096",
+    "PatronProfile": {
+      "FirstName": "Mario",
+      "LastName": "Rosagaron",
+      "Dob": {
+        "DT": "1981-11-10T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+
+    "BoardingPass": [
+      {
+        "MagStripe": "013042130215629179",
+        "CardNumber": "7503096"
+      }
+    ]
+  },
+  {
+    "PatronId": "3014735",
+    "PatronProfile": {
+      "FirstName": "Sarah",
+      "LastName": "Lebel",
+      "Dob": {
+        "DT": "1963-3-3T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+
+    "BoardingPass": [
+      {
+        "MagStripe": "013042151512556431",
+        "CardNumber": "3014735"
+      }
+    ]
+  },
+  {
+    "PatronId": "3807955",
+    "PatronProfile": {
+      "FirstName": "William",
+      "LastName": "Phillipson",
+      "Dob": {
+        "DT": "1985-10-17T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+
+    "BoardingPass": [
+      {
+        "MagStripe": "013042011203807955",
+        "CardNumber": "3807955"
+      }
+    ]
+  },
+  {
+    "PatronId": "3000280",
+    "PatronProfile": {
+      "FirstName": "Roderick",
+      "LastName": "Burns",
+      "Dob": {
+        "DT": "1996-12-12T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+
+    "BoardingPass": [
+      {
+        "MagStripe": "013042051512543187",
+        "CardNumber": "3000280"
+      }
+    ]
+  },
+  {
+    "PatronId": "7996975",
+    "PatronProfile": {
+      "FirstName": "Herman",
+      "LastName": "Young",
+      "Dob": {
+        "DT": "1973-11-17T00:00:00",
+        "CardNumber": "0"
+      }
+    },
+
+    "BoardingPass": [
+      {
+        "MagStripe": "013042121111041868",
+        "CardNumber": "7996975"
+      }
+    ]
+  },
+  {
+    "PatronId": "3037329",
+    "PatronProfile": {
+      "FirstName": "Edward",
+      "LastName": "Murphy",
+      "Dob": {
+        "DT": "1943-11-15T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+    "BoardingPass": [
+      {
+        "MagStripe": "013042041003037329",
+        "CardNumber": "3037329"
+      }
+    ]
+  },
+  {
+    "PatronId": "6199095",
+    "PatronProfile": {
+      "FirstName": "Fredrick",
+      "LastName": "Jackson",
+      "Dob": {
+        "DT": "1976-5-25T00:00:00",
+        "UtcOffsetMinutes": "0"
+      }
+    },
+
+    "BoardingPass": [
+      {
+        "MagStripe": "013042111206199972",
+        "CardNumber": "6199095"
+      }
+    ]
+  }
+]
